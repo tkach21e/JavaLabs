@@ -1,0 +1,17 @@
+info
+add
+Script product
+1.5
+2.5
+100
+SCRIPT-001
+PCS
+Alice
+2000-01-01
+170
+60
+GERMANY
+show
+filter_by_owner Alice
+filter_greater_than_part_number AAA
+shuffle

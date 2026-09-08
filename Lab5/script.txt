@@ -1,0 +1,30 @@
+info
+show
+filter_by_owner John
+add
+NewProduct
+1.1
+2.2
+1000
+PN-TEST
+PCS
+Tester
+2000-01-01
+180
+70
+GERMANY
+add_if_max
+BigProduct
+2.0
+3.0
+20000
+PN-BIG
+PCS
+Boss
+1990-01-01
+190
+90
+UNITED_KINGDOM
+remove_by_id 1
+filter_greater_than_part_number PN-010
+save

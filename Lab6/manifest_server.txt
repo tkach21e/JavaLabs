@@ -1,0 +1,2 @@
+Main-Class: Server.ServerMain
+Class-Path: lib/logback-classic-1.5.22.jar lib/logback-core-1.5.22.jar lib/slf4j-api-2.0.17.jar

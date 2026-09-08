@@ -1,0 +1,5 @@
+info
+show
+remove_by_id 99
+shuffle
+filter_by_owner Alice

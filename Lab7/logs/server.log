@@ -1,0 +1,14 @@
+2026-09-08 00:42:07.841 [main] ERROR Server.ServerMain - Критическая ошибка в работе сервера
+java.nio.file.NoSuchFileException: /Users/tkach/.pgpass
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:218)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2922)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2955)
+	at Server.Database.DatabaseManager.<init>(DatabaseManager.java:22)
+	at Server.ServerMain.main(ServerMain.java:30)
